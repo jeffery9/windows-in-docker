@@ -72,7 +72,7 @@ fi
 
 if [[ "${VERSION,,}" == "winxpx86" ]]; then
   DETECTED="winxpx86"
-  VERSION="https://dl.bobpony.com/windows/xp/professional/en_windows_xp_professional_with_service_pack_3_x86_cd_x14-80428.iso"
+  VERSION="http://192.168.1.110:8000/en_windows_xp_professional_with_service_pack_3_x86_cd_x14-80428.iso"
 fi
 
 if [[ "${VERSION,,}" == "core11" ]]; then
